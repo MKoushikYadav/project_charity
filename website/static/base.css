@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+:root{
+    --red:#E41B17;
+    --blue:#00BFFF;
+    --gradient: linear-gradient(90deg,var(--red), var(--blue));
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Oswald';
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+*::selection{
+    background: var(--red);
+    color: #fff;
+}
+html,
+body {
+  font-size: 75.5%;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(135deg,#B6B6B4, #F0FFFF);
+  background-size: cover;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background: white;
+    padding:1rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header input.search_icon{
+    object-fit: contain;
+    position:relative;
+    align-items: center;
+    justify-items: center;
+    padding:0;
+    top:3px;
+    left:-4px;
+    margin:0;
+    width: 30px;
+    height: 20px;
+}
+header img.logo{
+    object-fit: contain;
+    position:relative;
+
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    color:var(#943030);
+    text-shadow: 1px 1px #E41B17;
+}
+header .navbar a:hover{
+    color:#E41B17;
+    text-shadow: 1px 1px #0000FF;
+}
+
+
+ /*FOR SEARCH BOX*/
+    header form{
+        display:block;
+        align-items:center;
+        padding-left: 18%;
+    }
+
+ #search-box{
+    position: relative;
+    font-size:20px;
+    border-top:hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-color: #b6b6b4;
+    width: 250px;
+    height: 45px;
+    text-align: center;
+  }
+  #search-box:focus,#search-box:focus:active{
+    outline-style: solid;
+    outline-color: #b6b6b4;
+    
+    border-color: #b6b6b4;
+  }
+
+  /* ENDS HERE */
+

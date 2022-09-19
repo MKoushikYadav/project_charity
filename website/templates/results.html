@@ -1,0 +1,13 @@
+{%extends "base.html"%}
+{%block title%}Results{%endblock title%}
+{%block stylesheets%}
+    <link rel="stylesheet" href="../static/base.css">
+    <link rel="stylesheet" href="../static/results.css">
+{%endblock stylesheets%}
+{%block content%}
+
+<div  class="msg"> The search query is: {{query}}
+    <br><br>{{conn}}
+</div>
+
+{%endblock content%} 

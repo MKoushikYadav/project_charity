@@ -1,0 +1,34 @@
+<!DOCTYPE <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{%block title%}{%endblock%}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../static/base.css" rel="stylesheet">
+        {%block stylesheets%}
+        {%endblock%}
+    </head>
+
+<body>
+  <header>
+    <img src="../static/pc logo.jpeg" href="/" class="logo" height="85" width="85" alt="logo">
+      <form method="POST" action="/results">
+      <input type="text" id="search-box" name="query" placeholder="Search for charities ..."/>
+      <input type="image" class="search_icon" src="../static/search.png" >
+      </form>
+    <nav class="navbar">
+      
+        <a href="/">HOME</a>
+        <a href="/categories">CATEGORIES</a>
+        <a href="#cus.html">CONTACT US</a>
+    </nav>
+</header>
+
+{%block content%}{%endblock%}
+
+</div>
+</body>
+</html>

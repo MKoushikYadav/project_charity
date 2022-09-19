@@ -1,0 +1,14 @@
+{%extends "base.html"%}
+{%block title%}Home{%endblock%}
+{%block links%}<link rel="stylesheet" href="../static/homepage.css" type="text/css">{%endblock%}
+{%block content%}
+
+<h1>This is the Home Page</h1>
+
+<div class="input-group" >
+    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+    <button type="button-round" class="btn btn-outline-primary">search</button>
+  </div>
+  {{search}}
+
+{%endblock%}
