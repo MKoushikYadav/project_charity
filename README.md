@@ -1,5 +1,5 @@
 # project_charity
-A website to help people find charity
+A website to help people find charities
 
 <b> How it works <b>
 A user visits the website and searches for a type of charity or a name in the search bar of the website. (Only Indian Charities)
