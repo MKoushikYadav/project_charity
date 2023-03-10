@@ -8,6 +8,6 @@ The website queries the database and returns a response that is most appropriate
 <strong> Future Scope </Strong><br>
 <ul>
 <li> Machine Learning Algorithm to add charities to the database based on credibility and genuinity.</li>
-<li>A search response Caching to reduce search times.<li>
-<li> Database improvements<li>
+<li>A search response Caching to reduce search times.</li>
+<li> Database improvements</li>
 </ul>
