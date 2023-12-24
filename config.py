@@ -7,7 +7,7 @@ class DevelopmentConfig(Config):
     Development configurations
     """
     MYSQL_DATABASE_USER = 'root'
-    MYSQL_DATABASE_PASSWORD = $secret.password
+    MYSQL_DATABASE_PASSWORD = $secret.password #Can be any password
     MYSQL_DATABASE_HOST = '127.0.0.1:3306'
     MYSQL_DATABASE_DB = 'charity'  # can be any
 
